@@ -2,7 +2,7 @@
 Summary: Linux/PPC64 specific utilities
 Name:    ppc64-utils
 Version: 0.14
-Release: 14%{?dist}
+Release: 15%{?dist}
 
 # La la la. There is nothing here any more.
 License: GPLv2
@@ -34,6 +34,9 @@ A collection of utilities for Linux on PPC64 platforms.
 %files
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.14-15
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.14-14
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
